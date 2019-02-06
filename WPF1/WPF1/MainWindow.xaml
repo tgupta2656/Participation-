@@ -10,7 +10,10 @@
         <Label x:Name="Name" Content="Name:" HorizontalAlignment="Left" Margin="51,62,0,0" VerticalAlignment="Top" Width="76" Height="42" FontWeight="Bold" FontSize="20" Background="#FFFFF4F4"/>
         <Label Content="Address:" HorizontalAlignment="Left" Margin="51,140,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="#FF060606" Background="White"/>
         <Label Content="ZipCode: &#xD;&#xA;" HorizontalAlignment="Left" Margin="51,227,0,0" VerticalAlignment="Top" RenderTransformOrigin="-12.537,1.263" FontSize="20" FontWeight="Bold" Height="46" Width="91" Foreground="#FF080808" Background="White"/>
-        <ListBox HorizontalAlignment="Left" Height="153" Margin="299,78,0,0" VerticalAlignment="Top" Width="354" SelectionChanged="ListBox_SelectionChanged"/>
-        <Button x:Name="Submit" Content="Submit" HorizontalAlignment="Left" Margin="418,300,0,0" VerticalAlignment="Top" Width="111" Click="Submit_Click" FontWeight="Bold" FontSize="20" Height="53"/>
+        <ListBox HorizontalAlignment="Left" Height="153" Margin="391,81,0,0" VerticalAlignment="Top" Width="354" SelectionChanged="ListBox_SelectionChanged"/>
+        <Button x:Name="Submit" Content="Submit" HorizontalAlignment="Left" Margin="502,295,0,0" VerticalAlignment="Top" Width="111" Click="Submit_Click" FontWeight="Bold" FontSize="20" Height="53"/>
+        <TextBlock x:Name="Name1" HorizontalAlignment="Left" Margin="170,76,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.257,-0.328" Height="23" Width="119"/>
+        <TextBlock x:Name="zipcode1" HorizontalAlignment="Left" Margin="170,241,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.257,-0.328" Height="23" Width="119"/>
+        <TextBlock x:Name="Address1" HorizontalAlignment="Left" Margin="170,154,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.257,-0.328" Height="23" Width="119"/>
     </Grid>
 </Window>

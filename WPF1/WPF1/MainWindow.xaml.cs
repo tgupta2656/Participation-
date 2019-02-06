@@ -27,12 +27,17 @@ namespace WPF1
 
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
+
+            
             Application a = new Application();
 
 
-            a.Name = name.Text; 
-            
 
+            a.Name = Name1.Text;
+
+            a.Address = Address1.Text;
+
+            a.ZipCode = Convert.ToInt32(zipcode1.Text); 
 
         }
 
