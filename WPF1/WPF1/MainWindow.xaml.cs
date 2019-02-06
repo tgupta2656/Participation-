@@ -27,6 +27,18 @@ namespace WPF1
 
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
+            Application a = new Application();
+
+
+            a.Name = name.Text; 
+            
+
+
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
 
         }
     }
