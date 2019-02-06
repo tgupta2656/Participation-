@@ -37,13 +37,21 @@ namespace WPF1
 
             a.Address = Address1.Text;
 
-            a.ZipCode = Convert.ToInt32(zipcode1.Text); 
+            a.ZipCode = Convert.ToInt32(zipcode1.Text);
+
+
+            ListBox1.Items.Add(a.ToString()); 
 
         }
+
+
+
+
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             
+
 
         }
     }
